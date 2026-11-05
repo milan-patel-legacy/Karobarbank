@@ -34,7 +34,7 @@ let LOCK=1,FB=null,armed='',S,D={},tab='home',sub={hp:'month',stm:'All',plan:'EM
 S={set:{dc:'30',asof:''},mi:[],loans:[],tx:[]};
 
 // ---- Sign in with Google. Each person's ledger lives in a hidden app folder in THEIR OWN Google Drive. ----
-const CLIENT_ID='PASTE_YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com'; // public by design, from Google Cloud Console
+921510988987-bdtegbq6b1nnv3jlon14reabaam1poi1.apps.googleusercontent.com; // public by design, from Google Cloud Console
 const SCOPE='openid email profile https://www.googleapis.com/auth/drive.appdata';
 const FN={ledger:'mero-karobar-ledger.json',prev:'mero-karobar-previous.json'},EMPTY=()=>({set:{dc:'30',asof:''},mi:[],loans:[],tx:[]});
 let busy=0,pend=0,timer=0,ST='Not signed in',U=null,TOK='',TEXP=0,LK='mero:device',SHA='',IDS={},LASTTXT='',EXPIRED=0,FIRST=0,W=0;
